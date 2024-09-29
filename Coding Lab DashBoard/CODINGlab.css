@@ -1,0 +1,335 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: #c9cddb;
+    /* background-color: #2f3542; */
+
+}
+/* parent board */
+.board{
+    display: grid;
+    grid-template-columns: 200px 330px 330px 330px 330px;
+    grid-template-rows: 100px 300px 290px;
+    /* gap: 5px; */
+    grid-template-areas: 
+    "a b b b b"
+    "a c d e f"
+    "a g g h h"
+    ;
+    /* background-color: #6fff; */
+    /* background-color: #017efc; */
+    margin: 2px 10px;
+}
+
+
+
+/* each card in board  */   
+.card{
+    /* border: 2px solid red; */
+}
+
+.card1{
+    grid-area: a;
+    background-color: #0c2461;
+    color: white;
+    
+}
+.card2{
+    grid-area: b;
+    background-color:#ffffff;
+
+}
+.card3{
+    position: relative;
+    grid-area: c;
+    /* background-color: red; */
+    
+}
+.card4{
+    grid-area: d;
+    /* background-color: green; */
+    
+}
+.card5{
+    grid-area: e;
+    /* background-color: gold; */
+    
+}
+.card6{
+    position: relative;
+    grid-area: f;
+    /* background-color: greenyellow; */
+    
+}
+.card7{
+    position: absolute;
+    bottom:19.5px;
+    left: 215px;
+    background-color: #f1f2f6;
+    grid-area: g;
+    /* background-color: rgb(255, 0, 132); */
+    width: 850px;
+    margin:0px 20px;
+    border-radius: 20px;
+    /* border: 2px solid blue; */
+    height: 45vh;
+    
+    
+    
+    
+}
+.card8{
+    position: absolute;
+    bottom:19.5px;
+    left: 876px;
+    height: 45vh;
+
+    grid-area: h;
+    background-color: #f1f2f6;
+    /* background-color: purple; */
+    /* border: 5px solid blue; */
+    border-radius: 20px;
+    width: 400px;
+    margin:0px 240px;
+    
+    
+}
+h2{
+    padding: 30px 15px 40px;
+    
+}
+.list>li{
+    padding: 13px 15px;
+    font-size: 18px;
+    /* border: 2px solid red; */
+    /* text-decoration-color: white; */
+}
+a{
+    color: white;
+}
+
+.bi{
+    padding-right: 10px;
+}
+.set{
+    
+    margin-top: 60px;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border: 2px solid blue; */
+    /* box-shadow: 20px 15px 15px; */
+}
+.dash{
+    padding-left: 30px;
+}
+
+.search{
+    position: relative;
+    border: 5px solid #f1f2f6;
+    border-radius: 10px;
+}
+input{
+    border-style: none;
+    
+}
+
+.search>.bi-search{
+    /* border: 2px solid red; */
+    /* border: 2px solid #f1f2f6; */
+    border-radius: 2px;
+    padding: 8px  10px 2px 10px;
+    /* margin: 1px; */
+    
+    position: absolute;
+    right: 0px;
+    font-size: 15px;
+    background-color: #1e90ff;
+    color: white;
+    
+}
+
+.search>input{
+    font-size: 25px;
+}
+
+.img1{
+    background-color: #f1f2f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: none;
+    border-radius: 10px;
+    margin: 0px 25px;
+    
+    width: 160px;
+    height: 40px;
+    /* border: 2px solid red; */
+}
+img{
+    margin-top: 4px;
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+}
+option{
+    font-size: 15px;
+    background-color: gray;
+}
+select{
+    font-size: 17px;
+    border-style: none;
+    background-color: #f1f2f6;
+}
+form{
+    /* border: 2px solid red; */
+    color: #f1f2f6;
+    
+}
+
+.card8>h1{
+    padding-left: 30px;
+    /* border: 2px solid gold; */
+    
+}
+
+.list1{
+    /* border: 2px solid red; */
+    justify-content: space-evenly; 
+    display: flex;
+    /* margin-top: 0px;   */
+}
+
+p{
+    padding: 2px;
+    font-size: large;
+    
+}
+li{
+    padding: 5.2px;
+    font-size: large;
+}
+span{
+    font-size: 20px;
+    border-radius: 10px;
+    /* padding-right: 40px; */
+    margin-right: 20px;
+    background-color: #083088;
+    
+    /* border: 2px solid red; */
+}
+
+.div1{
+    /* border: 2px solid red; */   
+}
+.div2{
+    /* border: 2px solid red; */
+    
+    
+}
+
+/* block card 7  */
+.sales{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    padding: 0px 30px;
+    font-weight:lighter;
+}
+.card7>h2{
+    /* border: 2px solid red; */
+    padding: 0px 30px;
+    font-size: 30px;
+    
+}
+.head{
+    font-weight: bold;
+    
+}
+
+/* individuals boxes of card  */
+
+.box{
+    width: 300px;
+    height: 150px;
+    margin: 50px 20px;
+    border-radius: 20px;
+    background-color: #f1f2f6;
+}
+.cart{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 50px 0px;
+}
+.order{
+    font-size: 40px;
+    /* border: 2px solid red; */
+    /* margin-left: 10px; */
+    
+}
+.cart>h1{
+    font-size: 38px;
+    /* border: 2px solid rgb(12, 1, 1); */
+    
+}
+.bi-cart3{
+    
+}
+.cart>p{
+    font-size: 16px;
+    /* border: 2px solid red; */
+    
+}
+.bi-arrow-up-circle{
+    align-items: center;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 160%;
+    background-color: #1e90ff;
+    /* border: 2px solid red; */
+    
+}
+
+.c{
+    background-color: #04d9fa;
+    border-radius: 10px;
+    color: #083088;
+    /* border: 2px solid black; */
+
+}
+
+.c1{
+    background-color: hwb(95 2% 2%);
+    border-radius: 10px;
+    color: #063a02;
+    /* border: 2px solid black; */
+
+}
+.c2{
+    background-color: #ddfa04;
+    border-radius: 10px;
+    color: #a54f04;
+    /* border: 2px solid black; */
+
+}
+.c3{
+    background-color: #e172d0;
+    border-radius: 10px;
+    color: #ff04d9;
+    /* border: 2px solid black; */
+
+}
+.o1{margin: 0px 10px;}
+.o2{margin: 0px 10px;}
+.o3{margin: 0px 10px;}
+.o4{margin: 0px 10px;}

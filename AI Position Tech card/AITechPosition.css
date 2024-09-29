@@ -1,0 +1,66 @@
+h1{
+    position: relative;
+    color: aliceblue;
+    padding-top: 20px; }
+h4{
+    padding-top: 10px;
+    color: aliceblue; }
+.card{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.icon{
+    padding-top: 25px;
+    padding-left: 200px;
+    font-style: 500px;
+}
+.li{
+    padding-left: 214px;
+    padding-top: 10px;
+}
+*{ padding: 0;margin: 0;box-sizing: border-box; }
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg,
+     rgb(37, 69, 69) 0%, rgb(24, 24, 24) 100%); }
+
+.c1{
+    position: absolute;
+    border-top: 15px solid rgb(195, 11, 11);
+    background-color: aliceblue;
+    box-shadow:  12px 9px 10px 5px rgba(5,5,5,1);
+    top: 125px;
+    left: 590px;
+}
+.c2{
+    position: absolute;
+    border-top: 15px solid rgb(0, 183, 255);
+    background-color: aliceblue;
+    box-shadow:  12px 9px 10px 5px rgba(5,5,5,1);
+    top: 250px;
+    left: 200px;
+}
+.c3{
+    position: absolute;
+    border-top: 15px solid rgb(208, 255, 0);
+    background-color: aliceblue;
+    box-shadow:  12px 9px 10px 5px rgba(5,5,5,1);
+    top: 420px;
+    left: 590px;
+}
+.c4{
+    position: absolute;
+    border-top: 15px solid blue;
+    background-color: aliceblue;
+    box-shadow:  12px 9px 10px 5px rgba(5,5,5,1);
+    top: 250px;
+    left: 982px;
+}

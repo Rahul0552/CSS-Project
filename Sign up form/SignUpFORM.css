@@ -1,0 +1,120 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+/* form-body of parent */
+
+.form{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 140px 420px;
+    width: 700px;
+    height: 55vh;
+}
+
+.white{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 400px;
+    height: 55vh;
+    background-color: white;
+}
+
+.white>.logo,h1,h4{
+    /* border: 2px solid red; */
+    
+}
+.logo{
+    /* border: 2px solid gold; */
+    display: flex;
+    padding: 3px 100px;
+}
+.logo>.l{
+    margin: 5px;
+    padding: 13px;
+    font-size: 10px;
+    border: 1px solid rgb(176, 168, 168);
+    /* background-color: black; */
+    /* color: aliceblue; */
+    border-radius: 100%;
+    
+}
+
+h1{
+    margin-top: 35px; 
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+}
+h4{
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+/* .box>.b1,b2{         why it is not working
+size: 50px;
+    } */
+    
+.box{
+    /* border: 2px solid red; */
+}
+.box>.b1,.b2{
+    margin: 10px;
+}
+input{
+    font-size: 20px;
+    /* font-weight : 200px; */
+}
+
+
+
+.red{
+    background-color: red;
+    color: aliceblue;
+    
+    text-align: center;
+    /* border: 2px solid blue; */
+    width: 400px;
+    height: 55vh;
+}
+
+h2{
+    /* border: 2px solid blue; */
+    margin: 0px 55px;
+    margin-top: 100px;
+    padding-bottom: 5px;
+    /* padding-right: 0px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+}
+
+.text{
+    /* border: 2px solid blue; */
+    text-align: ;
+    width: 300px;
+    font-size: medium;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.link{
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    border: 2px red solid;
+    border-radius: 30px;
+    
+}
+
+.l1{
+    background-color:  red;
+    color: white;
+    margin: 15px  15px 15px 0px;
+    border: 2px white solid;
+    /* border: 2px solid blue; */
+}

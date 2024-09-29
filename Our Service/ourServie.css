@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* parents1 heading-title.start */
+
+/* parents.child cards element.style */
+.parent1{
+    width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    /* border: 2px solid black; */
+    /* margin: 20px 3px; */
+} 
+p{
+    padding-bottom: 35px;
+    
+}
+h1{
+    padding-bottom: 10px;
+    color: rgb(5, 22, 5);
+}
+span{
+    color: rgb(22, 186, 22);
+}
+
+/* total body content */
+
+.pbody{
+    width: 100%;
+    /* text-align: center; */
+    /* border: 2px solid green; */
+    /* margin: 100px; */
+} 
+/* each content card */
+.content{
+    display: flex;
+    padding: 0px 2px;
+    width: 100%;
+    /* height: 50vh; */
+    margin: 22px 15px; /*change the margin which makes difference in each card */
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 14px 16px 10px -10px rgba(173,155,173,0.6);
+} 
+/* each row content 2 child  */
+.parent2{
+    display: flex;
+    /* width: 1530px; */
+    /* width: 100%; */
+    /* border: 2px solid blue; */
+}
+.content>.text{
+    /* width: 615px; */
+    width: 600px;
+    height: 135px;
+    line-height: 20px;
+    /* border: 2px solid black; */
+}
+.text>h3{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: rgb(1, 45, 6);
+}
+.text>p{
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: lighter;
+}
+.text-link{
+    padding-left: 500px;
+    display: inline;
+    justify-content: right;
+    align-items: end;
+    color: rgb(12, 155, 107);
+}
+img{
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    /* border: 2px solid yellow; */
+  margin: 20px 15px 0px;
+}
+

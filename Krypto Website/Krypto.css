@@ -1,0 +1,262 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+/* total body... */
+.webpg{
+    color: hsl(210, 25%, 98%);
+}
+body{
+    /* background-color: rgb(50, 2, 96); */
+    background-color: #000435;
+}
+
+/* first block nav bar.. */
+
+.navbar{
+    display: flex;
+    margin: 100px 0px;
+
+    /* border: 2px solid red; */
+}
+
+.logo{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+}
+.l1{
+    /* border: 2px solid rgb(4, 4, 4); */
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 35px;
+    padding-left: 170px;             /* which move logo adjectment */
+    
+    width: 700px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;    /* which move menu bar adjectment */
+    /* margin-left: 20px; */
+}
+.list{
+    font-size: 25px;
+    /* border: 2px solid rgb(4, 4, 4); */
+    padding: 0px 15px;
+    margin: 0px 15px;
+}
+
+/* <!-- next block-2 for info and img... --> */
+
+.bloc2{
+    display: flex;
+    /* border: 2px solid rgb(4, 4, 4); */
+    width: 100%;
+    height: 70vh; 
+}
+.info1{
+    /* display: flex; */
+    margin-left: 200px;   
+    width: 450px;
+    height: 180px; 
+    /* border: 2px solid gold; */
+
+}
+.info1>h1{
+    /* border: 2px solid brown; */
+    font-size: 80px;
+    padding-bottom: 15px;  
+}
+p{
+    /* border: 2px solid brown; */
+    font-size: 27px; 
+    padding: 10px 2px;
+
+}
+/* .srceen{
+    /* display: flex; */
+
+.screen1>img{
+    width: 600px;
+    height: 400px;
+    /* height: 450px; */
+    margin-left: 100px;
+    margin: 25px 40px;
+    /* border: 2px solid rgb(0, 145, 255); */
+
+}
+.buy{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-right: 12px;
+    padding:10px 40px;
+    border-radius: 50px;
+    size: 45px;
+    border: 2px solid white;
+    color: white;
+}
+.b1{
+    background-color: rgb(167, 137, 196);
+}
+.b2{
+    background-color:#000435 ;
+    
+    /* <!-- next block-3 for info and img... --> */
+}
+.box{
+    /* border: 2px solid gold; */
+}
+.card{
+    display: flex;
+    /* border: 2px solid gold; */
+    width: 1300px;
+    margin: 0px 100px;
+    border-radius: 20px ; 
+    background-color:#0a104a ;
+    
+}
+.c{
+    width: 250px;
+    /* padding: 25px 20px; */
+    padding: 20px;
+    margin-left: 50px;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+.f{
+    
+    margin-left: 100px;
+    /* border: 2px solid red; */
+    margin-top: 120px;
+    padding-left: 20px;
+}
+.f>h1{
+    font-size: 30px;
+}
+
+/* <!-- next block-4 for info and img... --> */
+
+.bloc4{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 190px;
+}
+
+.screen2>img{                     /* u need to write the screen*/
+     width: 400px;
+    height: 300px; 
+    /* height: 450px; */
+    margin-left: 300px;
+    margin-top: 60px;
+    /* margin: 25px 40px; */
+    /* border: 2px solid rgb(0, 145, 255); */
+}
+
+.info2{
+    
+        /* margin-right: 200px;    */
+        width: 430px;
+        height: 380px; 
+        /* border: 2px solid gold; */
+        margin-left: 70px;
+}
+.info2>.p2{
+    color: rgb(97, 239, 239);
+}
+h1{
+    font-size: 49px;
+    /* padding-bottom: 30px; */
+}
+p{
+    font-size: 25px;
+    
+}
+
+.price1{
+        font-size: 30px;
+        font-weight: lighter;
+        margin-top: 20px;
+        margin-right: 12px;
+        padding:10px 55px;
+        border-radius: 50px;
+        size: 45px;
+        border: 2px solid white;
+        background-color: rgb(167, 137, 196);
+        color: white;
+    }
+
+    /* <!-- next block-5 for info and img... --> */
+
+    .bloc5{
+        display: flex;
+        /* border: 2px solid red; */
+        margin-top: 190px;
+        margin-left: 200px;
+     
+    }
+    
+.screen3>img{
+         width: 500px;
+        height: 380px; 
+        margin-left: 30px;
+        /* height: 450px; */
+        margin-top: 100px;
+        /* margin: 25px 40px; */
+        /* border: 2px solid rgb(0, 145, 255); */
+    }
+    
+    .info3{
+        
+        /* border: 2px solid gold; */
+            margin-top: 100px;   
+            width: 430px;
+            height: 380px; 
+            /* margin-right:10px; */
+    }
+    .info3>.p3{
+        color: rgb(97, 239, 239);
+    }
+    h1{
+        font-size: 49px;
+    }
+    p{
+        font-size: 25px;
+        
+    }
+    
+    .price2{
+            font-size: 30px;
+            font-weight: lighter;
+            margin-top: 20px;
+            margin-right: 12px;
+            padding:10px 55px;
+            border-radius: 50px;
+            size: 45px;
+            border: 2px solid white;
+            background-color: rgb(167, 137, 196) ;
+            color: white;
+        }
+
+
+        /* <!-- next block-6 for info and img... --> */
+
+
+.box1{
+    border: 2px solid darkred;
+
+}
+.read{
+    text-align: center;
+    border: 2px solid darkred;
+}
+

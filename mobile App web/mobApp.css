@@ -1,0 +1,96 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-weight: ;
+}
+/* tatal background */
+body{
+    background: linear-gradient(81deg, rgb(172, 227, 83) 100%, rgb(137, 244, 230) 0%); */
+    /* background: rgb(14,50,50);
+    /* background: rgb(9, 78, 78);
+    background: linear-gradient(81deg,  rgb(8, 127, 135) 0%, rgba(14,50,50,1)  100%); */
+}
+.div1>.navbar,.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border: 2px solid rgb(247, 7, 7); */
+}
+.logo{
+    /* border: 2px solid black; */
+    width: 700px;
+    padding: 30px;
+    margin: 20px;    
+}
+.logo>p{
+    font-size: 30px;
+}
+.list{
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding-right: 20px;
+    margin: 20px 15px 0px;
+    font-size: 19px;
+}
+.l1{
+    font-size: 25px;
+    padding: 2px;
+    /* background-color: ; */
+    background: linear-gradient(81deg,  rgb(1, 225, 250) 0%, rgb(41, 244, 118)  100%);
+    /* background: linear-gradient(81deg,  rgb(8, 127, 135) 0%, rgb(25, 112, 112)  100%); */
+}
+/* body parent2 */
+.div2{
+    display: flex;
+    /* border: 2px solid blue; */
+    color: white;
+}
+.info{
+    width: 500px;
+    margin-left: 6rem;
+    padding-right: 1rem;
+    padding: 50px;
+    font-size: 30px;
+    /* border: 2px solid red; */
+}
+span{
+    color: aqua;
+}
+h1{
+    /* border: 2px solid red; */
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+p{
+    font-size: 16.5px;
+    text-align: left;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+.mobile{
+    /* border: 2px solid gold; */
+    margin-left: 50px;
+    padding: 0px 100px;
+    background: linear-gradient(81deg, rgb(172, 227, 83) 100%, rgb(137, 244, 230) 0%);
+    /* background: linear-gradient(81deg,  rgb(1, 225, 250) 0%, rgb(41, 244, 118)  100%); */
+    border-radius: 100%;
+}
+
+img{
+    width: 400px;
+    height: 450px;
+}
+.link{
+    margin-right: 3rem;
+    font-size: 19px;
+    border-radius: 30px;
+    /* border-color: white; */
+    border-color: black;
+    background: linear-gradient(81deg,  rgb(1, 225, 250) 0%, rgb(41, 244, 118)  100%);
+    color: rgb(2, 63, 63);
+    padding: 2px 18px ;
+    margin: 0;
+}
